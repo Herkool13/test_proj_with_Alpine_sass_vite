@@ -1,0 +1,14 @@
+@import 'variables';
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .btn{
+    border: none;
+    background-color: $primary-color;
+    color: #fff;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    border-radius: 16px;
+  }

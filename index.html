@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Alpine</title>
+</head>
+
+<body>
+  <div id="app">
+    <div x-data="dropdown">
+      <button @click="toggle" class="btn">toggle</button>
+
+      <div x-show="open">
+        <h1>title1</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis deserunt veritatis placeat reprehenderit
+          alias ex in aut iusto debitis corrupti veniam provident, quod praesentium non omnis voluptates perspiciatis.
+          Aliquam, velit?</p>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
